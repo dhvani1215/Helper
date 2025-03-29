@@ -1,69 +1,55 @@
-# Welcome to your Lovable project
+# Government Document Management System and Law infomation.
+A modern web application for managing and tracking government identity documents like Aadhaar, PAN, Voter ID, and Passport. We can also know about any law by it's title with section. and all emergency numbers according to india are also avilable.
 
-## Project info
+## Features
+- Document Dashboard: View all your documents in one place with status indicators
+- Document Detail View: Examine document details and verification status
+- Contact Management: Keep track of important contacts
+- Modern UI: Clean design with animations and interactive elements
+- Responsive: Works on both desktop and mobile devices
 
-**URL**: https://lovable.dev/projects/8ad1d5bc-8b77-41e0-a573-42acd805fd12
+## Technology Stack
+- React
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+### Prerequisites
 
-**Use Lovable**
+- Node.js (v14 or later)
+- npm or yarn
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ad1d5bc-8b77-41e0-a573-42acd805fd12) and start prompting.
+### Installation
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository
+```
+git clone https://github.com/dhvani1215/Helper
+cd helper
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies
+```
+npm install
+# or
+yarn install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server
+```
+npm run dev
+# or
+yarn dev
+```
 
-**Use GitHub Codespaces**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Usage
 
-## What technologies are used for this project?
+- Browse through the document list on the main page
+- Click on any document to view its details
+- Browse for get information about any law of india.
+- Use the contact page to manage your important contacts
+- Navigate between pages using the header navigation
 
-This project is built with .
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8ad1d5bc-8b77-41e0-a573-42acd805fd12) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
